@@ -169,6 +169,8 @@ NGROK mostrara una URL publica (ej: `https://xxxx-xxxx.ngrok-free.app`) que redi
 
 ![Curl desde terminal](images/Curl%20desde%20terminal.png)
 
+![Ngrok trabajando](images/Ngrok%funcionando%en%la%terminal.png)
+
 ![Request desde navegador](images/Request%20desde%20navegador%20.png)
 
 ### Ejemplo de uso con la URL publica
