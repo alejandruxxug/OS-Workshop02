@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.items-api</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/urrexx/miniconda3/bin/uvicorn</string>
+        <string>api:app</string>
+        <string>--host</string>
+        <string>0.0.0.0</string>
+        <string>--port</string>
+        <string>8000</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/urrexx/Documents/Uni/3rdSemester/OS/Workshop/OS-Workshop02</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/items-api.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/items-api-error.log</string>
+</dict>
+</plist>

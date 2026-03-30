@@ -1,0 +1,15 @@
+[Unit]
+Description=Items API - FastAPI with SQLite
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/OS-Workshop02
+ExecStart=/usr/local/bin/uvicorn api:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=3
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+
+[Install]
+WantedBy=multi-user.target
