@@ -163,7 +163,7 @@ Con la API corriendo en el puerto 8000:
 ngrok http 8000
 ```
 
-NGROK mostrara una URL publica (ej: `https://xxxx-xxxx.ngrok-free.app`) que redirige al servidor local. Cualquier persona puede usar esa URL para acceder a la API.
+NGROK mostrara una URL publica (ej: `https://exhaustlessly-oversmooth-ladawn.ngrok-free.dev` en este caso es ) que redirige al servidor local. Cualquier persona puede usar esa URL para acceder a la API.
 
 ### Evidencia - NGROK funcionando
 
