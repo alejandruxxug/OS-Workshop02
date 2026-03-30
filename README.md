@@ -22,11 +22,15 @@ OS-Workshop02/
 
 ![Backend corriendo en localhost](images/backend%20corriendo%20en%20localhost.png)
 
+No puedo mostrarlo funcionando desde un servicio ya que no estoy en WSL sino en MacOS.Aquí se usaría la carpeta launchd y un archivo .plist (Lo intente varias. veces y al final no funcionó TwT)
+
 ## Requisitos
 
 ```bash
 pip install fastapi uvicorn pydantic
 ```
+
+Estas son las librerias que nos permiten que el backend nos funcione.
 
 ## Como ejecutar la API
 
@@ -38,7 +42,6 @@ La API estara disponible en `http://localhost:8000`.
 
 La documentacion interactiva (Swagger UI) esta en `http://localhost:8000/docs`
 
-La imagen esta en images:
 
 ## Endpoints
 
@@ -104,7 +107,7 @@ GET /items?limit=10&offset=0
 ## Archivo .service (systemd)
 
 El archivo `items-api.service` permite que la API se inicie automaticamente con el sistema operativo.  
-No puedo mostrarlo funcionando ya que no estoy en WSL sino en MacOS. Se usa la carpeta launchd y un archivo .plist (Lo intente varias. veces y al final no funcionó TwT)
+(No se muestra como lo requiere ya que estoy en MacOS y es diferente)
 
 ### Instalacion del servicio (Linux/WSL)
 
@@ -135,7 +138,7 @@ NGROK es una herramienta que crea tuneles seguros desde internet hacia tu comput
 
 ### Instalacion
 
-**macOS (con Homebrew):**
+**MacOS (con Homebrew):**
 
 ```bash
 brew install ngrok
