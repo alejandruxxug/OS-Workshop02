@@ -22,7 +22,7 @@ OS-Workshop02/
 
 ![Backend corriendo en localhost](images/backend%20corriendo%20en%20localhost.png)
 
-No puedo mostrarlo funcionando desde un servicio ya que no estoy en WSL sino en MacOS.Aquí se usaría la carpeta launchd y un archivo .plist (Lo intente varias. veces y al final no funcionó TwT)
+No puedo mostrarlo funcionando desde un servicio ya que no estoy en WSL sino en MacOS.Aquí se usaría la carpeta launchd y un archivo .plist (Lo intente varias. veces y al final no funcionó TwT, la estructura del archivo .plist es tipo XML entonces no estoy familiarizado en este entorno para hacer este despliegue)
 
 ## Requisitos
 
